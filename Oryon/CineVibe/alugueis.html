@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVibe | Meus aluguéis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span>ORYON</span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="filmes.html">Filmes</a>
+      <a class="active" href="alugueis.html">Meus aluguéis</a>
+      <a href="conta.html">Minha conta</a>
+    </nav>
+    <a class="avatar" href="conta.html" aria-label="Minha conta">C</a>
+  </header>
+
+  <main class="page subpage">
+    <p class="eyebrow">Sua sessão</p>
+    <h1>Meus <span class="accent">aluguéis</span></h1>
+    <p class="lead">Confira o que está com você e quando cada filme precisa ser devolvido.</p>
+
+    <div class="summary-grid">
+      <div class="summary-card"><span>Aluguéis ativos</span><strong>2</strong><small>Prontos para assistir</small></div>
+      <div class="summary-card highlight"><span>Próxima devolução</span><strong>22 out.</strong><small>Plano Improvável</small></div>
+      <div class="summary-card"><span>Gasto neste mês</span><strong>R$ 21,40</strong><small>Outubro de 2026</small></div>
+    </div>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div><h2>Ativos agora</h2><p>Filmes alugados recentemente</p></div>
+      </div>
+      <article class="rental-row">
+        <img src="img/no-horizonte.jpg" alt="No Horizonte">
+        <div class="rental-main">
+          <h3>No Horizonte</h3><p>Alugado em 21/10/2026</p>
+          <div class="progress"><span style="width:60%"></span></div>
+          <small>Devolver até 24/10/2026</small>
+        </div>
+        <div class="rental-side"><span class="status status-active">Em andamento</span><strong>R$ 12,90</strong></div>
+      </article>
+      <article class="rental-row">
+        <img src="img/plano-improvavel.jpg" alt="Plano Improvável">
+        <div class="rental-main">
+          <h3>Plano Improvável</h3><p>Alugado em 20/10/2026</p>
+          <div class="progress warning"><span style="width:85%"></span></div>
+          <small>Devolver até 22/10/2026</small>
+        </div>
+        <div class="rental-side"><span class="status status-warning">Devolver em breve</span><strong>R$ 8,50</strong></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading"><div><h2>Histórico</h2><p>Aluguéis finalizados</p></div></div>
+      <div class="empty"><strong>Nada por aqui ainda.</strong><p>Quando você devolver um filme, ele aparece nesta lista.</p></div>
+    </section>
+
+    <a class="back" href="index.html">← Voltar ao catálogo</a>
+  </main>
+
+  <footer>
+    <a class="brand" href="index.html"><span>ORYON</span></a>
+  </footer>
+</body>
+</html>

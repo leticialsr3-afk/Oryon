@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVibe | Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span>ORYON</span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a class="active" href="filmes.html">Filmes</a>
+      <a href="alugueis.html">Meus aluguéis</a>
+      <a href="conta.html">Minha conta</a>
+    </nav>
+    <a class="avatar" href="conta.html">C</a>
+  </header>
+
+  <main class="page films-page">
+    <section class="films-intro">
+      <p class="eyebrow">Seu próximo play começa aqui</p>
+      <h1>Escolha o que<br><span class="accent">vai te prender.</span></h1>
+      <p class="lead">Suspense, mundos impossíveis e histórias para maratonar. Escolha seu clima e encontre um filme.</p>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="catalog-head">
+        <div>
+          <p class="eyebrow">Explore por gênero</p>
+          <h2>Qual é a vibe de hoje?</h2>
+        </div>
+        <label class="search">⌕ <input id="buscaFilme" type="search" placeholder="Buscar filme ou gênero"></label>
+      </div>
+      <div class="filters">
+        <button class="filter selected" data-genero="todos">Tudo</button>
+        <button class="filter" data-genero="suspense">Suspense</button>
+        <button class="filter" data-genero="drama">Drama</button>
+        <button class="filter" data-genero="comedia">Comédia</button>
+        <button class="filter" data-genero="ficcao">Ficção</button>
+        <button class="filter" data-genero="acao">Ação</button>
+        <button class="filter" data-genero="animacao">Animação</button>
+      </div>
+
+      <h2 class="row-title">Em alta no CineVibe <span>↗</span></h2>
+      <div class="movie-grid">
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="suspense drama" data-nome="stranger things suspense ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things" loading="lazy"><span class="poster-number">01</span></a>
+          <div class="movie-info"><div><h3>Stranger Things</h3><p>Série · Suspense e ficção</p></div><span class="rating">★ 8,7</span></div>
+          <div class="movie-bottom"><span class="price">R$ 12,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+
+        <article class="movie-card" data-genero="drama suspense" data-nome="wandinha wednesday drama misterio">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" alt="Wandinha" loading="lazy"><span class="poster-number">02</span></a>
+          <div class="movie-info"><div><h3>Wandinha</h3><p>Série · Mistério</p></div><span class="rating">★ 8,1</span></div>
+          <div class="movie-bottom"><span class="price">R$ 9,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="acao suspense drama" data-nome="round 6 squid game acao suspense">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg" alt="Round 6" loading="lazy"><span class="poster-number">03</span></a>
+          <div class="movie-info"><div><h3>Round 6</h3><p>Série · Drama e tensão</p></div><span class="rating">★ 8,0</span></div>
+          <div class="movie-bottom"><span class="price">R$ 11,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="acao fantasia" data-nome="one piece aventura acao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg" alt="One Piece" loading="lazy"><span class="poster-number">04</span></a>
+          <div class="movie-info"><div><h3>One Piece</h3><p>Série · Aventura</p></div><span class="rating">★ 8,5</span></div>
+          <div class="movie-bottom"><span class="price">R$ 10,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="ficcao acao" data-nome="the witcher fantasia ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/7vjaSz1r3py8WnIl6Q9fX9S6e8Q.jpg" alt="The Witcher" loading="lazy"><span class="poster-number">05</span></a>
+          <div class="movie-info"><div><h3>The Witcher</h3><p>Série · Fantasia</p></div><span class="rating">★ 8,0</span></div>
+          <div class="movie-bottom"><span class="price">R$ 13,90 <small>/ 4 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="animacao comedia" data-nome="arcane animacao fantasia">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg" alt="Arcane" loading="lazy"><span class="poster-number">06</span></a>
+          <div class="movie-info"><div><h3>Arcane</h3><p>Animação · Ação</p></div><span class="rating">★ 9,0</span></div>
+          <div class="movie-bottom"><span class="price">R$ 9,90 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="drama" data-nome="the crown drama historia">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg" alt="The Crown" loading="lazy"><span class="poster-number">07</span></a>
+          <div class="movie-info"><div><h3>The Crown</h3><p>Série · Drama histórico</p></div><span class="rating">★ 8,3</span></div>
+          <div class="movie-bottom"><span class="price">R$ 8,90 <small>/ 2 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="comedia drama" data-nome="sex education comedia drama">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/8j12toJzQGxg1g4k9o6Vj7k4h4Q.jpg" alt="Sex Education" loading="lazy"><span class="poster-number">08</span></a>
+          <div class="movie-info"><div><h3>Sex Education</h3><p>Série · Comédia dramática</p></div><span class="rating">★ 8,2</span></div>
+          <div class="movie-bottom"><span class="price">R$ 9,50 <small>/ 3 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+        <article class="movie-card" data-genero="ficcao acao" data-nome="the witcher fantasia ficcao">
+          <a class="poster" href="alugueis.html"><img src="https://image.tmdb.org/t/p/w500/7vjaSz1r3py8WnIl6Q9fX9S6e8Q.jpg" alt="The Witcher" loading="lazy"><span class="poster-number">05</span></a>
+          <div class="movie-info"><div><h3>The Witcher</h3><p>Série · Fantasia</p></div><span class="rating">★ 8,0</span></div>
+          <div class="movie-bottom"><span class="price">R$ 13,90 <small>/ 4 dias</small></span><a class="button button-small" href="alugueis.html">Alugar</a></div>
+        </article>
+      </div>
+      <p id="semResultado" class="empty" hidden>Nenhum título encontrado. Tente outro nome ou gênero.</p>
+      <div class="quote"><p>Uma boa história merece mais do que passar pela tela.</p><a href="alugueis.html">Ver meus aluguéis →</a></div>
+    </section>
+  </main>
+</body>
+</html>

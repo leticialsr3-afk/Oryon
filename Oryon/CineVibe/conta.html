@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVibe | Minha conta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span>ORYON
+
+    </span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="filmes.html">Filmes</a>
+      <a href="alugueis.html">Meus aluguéis</a>
+      <a class="active" href="conta.html">Minha conta</a>
+    </nav>
+    <a class="avatar" href="conta.html" aria-label="Minha conta">C</a>
+  </header>
+
+  <main class="page subpage">
+    <p class="eyebrow">Perfil</p>
+    <h1>Minha <span class="accent">conta</span></h1>
+    <p class="lead">Seus dados e preferências em um só lugar.</p>
+
+    <div class="account-layout">
+      <aside class="account-menu">
+        <div class="account-avatar">C</div>
+        <h2>Cliente CineVibe</h2>
+        <p>cliente@email.com</p>
+        <a class="active" href="#dados">Dados pessoais</a>
+        <a href="#preferencias">Preferências</a>
+        <a href="alugueis.html">Meus aluguéis</a>
+      </aside>
+
+      <div>
+        <section class="panel" id="dados">
+          <div class="panel-heading"><div><h2>Dados pessoais</h2><p>Informações do seu cadastro</p></div></div>
+          <div class="form-grid">
+            <label>Nome completo<input type="text" value="Cliente CineVibe"></label>
+            <label>E-mail<input type="email" value="cliente@email.com"></label>
+            <label>Telefone<input type="tel" placeholder="(00) 00000-0000"></label>
+            <label>Data de nascimento<input type="text" placeholder="DD/MM/AAAA"></label>
+          </div>
+          <div class="form-actions">
+            <p>Dados demonstrativos nesta versão.</p>
+            <button class="button" type="button">Salvar alterações</button>
+          </div>
+        </section>
+
+        <section class="panel" id="preferencias">
+          <div class="panel-heading"><div><h2>Preferências</h2><p>Gêneros que você mais curte</p></div></div>
+          <div class="tags">
+            <span class="on">Aventura</span><span class="on">Comédia</span><span class="on">Ficção científica</span><span>Drama</span><span>Suspense</span><span>Animação</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a class="brand" href="index.html"><span>ORYON</span></a>
+ 
+  </footer>
+</body>
+</html>
